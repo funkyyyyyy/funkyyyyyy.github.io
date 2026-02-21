@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chen Kim Heng | Machine Learning Researcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
@@ -75,6 +76,32 @@
 
         .btn:hover {
             background-color: var(--accent-hover);
+        }
+
+        /* Hero Links */
+        .hero-links {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-links a {
+            color: #d1d5db;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .hero-links a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .hero-links i {
+            margin-right: 0.4rem;
+            font-size: 1.1rem;
         }
 
         .container {
@@ -205,6 +232,14 @@
             <h1>Chen Kim Heng</h1>
             <p>Machine Learning Researcher</p>
             <a href="resume.pdf" target="_blank" class="btn">Download CV</a>
+
+            <div class="hero-links">
+                <a href="mailto:hengchenkim@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://github.com/funkyyyyyy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/chen-kim-heng/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=8abeMogAAAAJ" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+            </div>
+            
         </div>
         <img src="misc/profile.jpg" alt="Chen Kim Heng" class="profile-img">
     </header>
