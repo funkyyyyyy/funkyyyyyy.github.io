@@ -27,6 +27,13 @@
             padding: 0;
         }
 
+        .disabled-link {
+            color: #9ca3af !important; /* Grey color */
+            pointer-events: none;      /* Prevents clicking */
+            cursor: not-allowed;       /* Changes the mouse pointer */
+            text-decoration: none;     /* Removes the underline */
+        }
+
         /* Hero Section */
         header {
             background-color: var(--text-main);
@@ -234,7 +241,7 @@
             <!-- <a href="resume.pdf" target="_blank" class="btn">Download CV</a> -->
 
             <div class="hero-links">
-                <!-- <a href="mailto:"><i class="fas fa-envelope"></i> Email</a> -->
+                <a href="mailto:" class="disabled-link"><i class="fas fa-envelope"></i> Email</a>
                 <a href="https://github.com/funkyyyyyy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 <a href="https://www.linkedin.com/in/chen-kim-heng/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="https://scholar.google.com/citations?user=8abeMogAAAAJ" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
@@ -271,9 +278,9 @@
                 <div class="pub-authors">Chen Kim Heng, Shao Wen Tong, Julian Wei Sheng Wong</div>
                 <div class="pub-venue">The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026</div>
                 <div class="pub-links">
-                    <a href="https://arxiv.org/pdf/your-paper-id.pdf" target="_blank">[PDF]</a>
+                    <a href="https://arxiv.org/pdf/your-paper-id.pdf" class="disabled-link" target="_blank">[PDF]</a>
                     <a href="https://github.com/klassessg/re2-docred" target="_blank">[Code]</a>
-                    <a href="https://arxiv.org/abs/your-paper-id" target="_blank">[arXiv]</a>
+                    <a href="https://arxiv.org/abs/your-paper-id" class="disabled-link" target="_blank">[arXiv]</a>
                 </div>
             </div>
             
@@ -297,7 +304,7 @@
     <footer>
         <p>Let's connect!</p>
         <div>
-            <!-- <a href="mailto:"><i class="fas fa-envelope"></i> Email</a> •  -->
+            <a href="mailto:" class="disabled-link"><i class="fas fa-envelope"></i> Email</a> • 
             <a href="https://github.com/funkyyyyyy" target="_blank"><i class="fab fa-github"></i> GitHub</a> • 
             <a href="https://www.linkedin.com/in/chen-kim-heng/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> •
             <a href="https://scholar.google.com/citations?user=8abeMogAAAAJ" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
