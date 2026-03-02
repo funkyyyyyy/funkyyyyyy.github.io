@@ -91,10 +91,6 @@
             display: flex;
             gap: 1.5rem;
             flex-wrap: wrap;
-            /* Add these 3 lines for perfect vertical centering: */
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
         }
 
         .hero-links a {
@@ -111,7 +107,7 @@
         }
 
         .hero-links i {
-            /* margin-right: 0.4rem; */
+            margin-right: 0.4rem;
             font-size: 1.1rem;
         }
 
@@ -119,7 +115,8 @@
         .custom-icon {
             width: 1.5rem;           /* Increased to make the logo visually larger */
             height: 1.5rem;          /* Increased to match the width */
-            /* margin-right: 0.4rem; */
+            margin-right: 0.4rem;
+            transform: translateY(4px); /* This nudges the logo down visually */
             /* vertical-align: 0.4rem; /* Increased slightly more to keep it centered with the text */ */
             object-fit: contain;
             /* Remove the two forward slashes from the line below if you want the logo to turn grey! */
